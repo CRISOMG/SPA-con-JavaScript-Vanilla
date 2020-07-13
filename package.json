@@ -1,0 +1,29 @@
+{
+  "name": "SPA-con-JavaScript-Vanilla",
+  "version": "1.0.0",
+  "description": "Curso de Single Page Application con JavaScript Vanilla",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRISOMG/SPA-con-JavaScript-Vanilla.git"
+  },
+  "keywords": [],
+  "author": "Cristian Caraballo <cristiancaraballo112@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRISOMG/SPA-con-JavaScript-Vanilla/issues"
+  },
+  "homepage": "https://github.com/CRISOMG/SPA-con-JavaScript-Vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
